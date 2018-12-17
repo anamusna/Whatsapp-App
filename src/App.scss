@@ -1,0 +1,41 @@
+@import 'normalize.css';
+
+$bgWhatsAppContainer : #fff;
+
+.flexboxItemGrow
+{
+    flex: 1; /* same as flex: 1 1 auto; */
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start; /* align items in Main Axis */
+    align-items: stretch; /* align items in Cross Axis */
+    align-content: stretch; /* Extra space in Cross Axis */
+}
+
+.App{
+  background-color: #CFD6D3;
+  width: 100%;
+  height: 100%;
+}
+
+.leftPane{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: #fff;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.rightPane{
+  display: inline-block;
+  width: 70%;
+}
+
+.WhatsappContainer{
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  background-color: $bgWhatsAppContainer;
+}

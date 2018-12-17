@@ -1,0 +1,37 @@
+.Header{
+  background-color: #eee;
+  > ul{
+    padding-left: 0;
+    list-style: none;
+    overflow: auto;
+    width: 100%;
+    margin: 0;
+  }
+  > ul > li {
+      display: inline-block;
+      padding: 10px;
+  }
+  > ul li:first-child {
+    img{
+      width: 30px;
+      height: 30px;
+      border-radius: 60px;
+      cursor: pointer;
+    }
+  }
+  > ul li:last-child {
+    float: right;
+    margin-top: 5px;
+  }
+}
+
+.UserStatus,
+.NewMessage,
+.MoreOptions{
+  display: inline-block;
+  cursor: pointer;
+}
+.UserStatus,
+.NewMessage{
+  padding-right: 34px;
+}

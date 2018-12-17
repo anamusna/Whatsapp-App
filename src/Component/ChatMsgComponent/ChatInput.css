@@ -1,0 +1,16 @@
+.ChatInputHolder {
+  align-items: flex-end;
+  webkit-align-items: flex-end;
+  display: flex;
+  display: webkit-flex;
+  padding: 15px;
+  background-color: #f5f1ee; }
+
+.inputContainer {
+  flex: 1 1 auto; }
+  .inputContainer input {
+    width: 100%;
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid #eaeaea;
+    margin-left: 8px; }
