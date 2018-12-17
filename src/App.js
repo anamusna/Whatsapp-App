@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styles from './App.scss';
 import common from './common.scss';
 import CombinedContainers from './Container/CombinedContainers';
-import { subscribeToTimer } from './api';
+//import { subscribeToTimer } from './api';
 
 class App extends Component {
   constructor(props) {
@@ -12,9 +12,7 @@ class App extends Component {
       "timestamp": 'no timestamp yet'
     }
 
-    subscribeToTimer((err, timestamp) => this.setState({
-      timestamp
-    }));
+
   }
 
 

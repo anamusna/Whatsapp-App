@@ -201,16 +201,22 @@ class CombinedComponents extends Component {
               "user": 0
             },
             {
-              "time": "10:10 AM",
+              "time": "10:09 AM",
               "description": "Oh yeah, NEVER STOP HACKING DUDE!!!",
               "commentId": 10,
               "user": 1
             },
             {
-              "time": "10:11 AM",
+              "time": "10:10 AM",
               "description": "want to code?",
               "commentId": 8,
               "user": 1
+            },
+            {
+              "time": "10:10AM",
+              "description": " oh yeah!!!",
+              "commentId": 9,
+              "user": 0
             },
           ]
         }
@@ -230,7 +236,6 @@ class CombinedComponents extends Component {
     }
 
     this.getUserList = (e) => {
-
       let detail = {},
         userData = e["userDetails"];
 
@@ -244,8 +249,9 @@ class CombinedComponents extends Component {
           "userId": Number(i)
         })
       }
-
+      console.log(userData)
       return userData
+
     }
 
   }
